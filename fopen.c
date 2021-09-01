@@ -1,3 +1,10 @@
+/*
+ * fopen.c
+ *
+ *  Created on: 2021. 9. 1.
+ *      Author: bstudent
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
@@ -16,6 +23,6 @@ int main(int argc, char *argv[])
 		printf("FILE %s OPENED: %d\n", argv[1], fd);
 	}
 
-	close(fd);
+	
 	exit(0);
 }
