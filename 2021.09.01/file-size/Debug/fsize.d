@@ -1,0 +1,1 @@
+fsize.o: ../fsize.c
